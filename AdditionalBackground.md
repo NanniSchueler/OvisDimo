@@ -9,7 +9,7 @@ The _Singapore Computer Society_ defines Artificial Intelligence (abbr. **AI**) 
 
 A simplified overview of the relations of all these terms is depicted here:
 
-![AI vs ML](AdditionalFigures/AIvsML.pdf)
+![AI vs ML](AdditionalFigures/AIvsML.png)
 
 ## Supervised Learning Algorithms 
 In (Shallow) Machine Learning, supervised learning algorithms describe a paradigm that requires labeled data as input to generalize and summarize, hence _learn_ from. The so-called labels represent the groups or categories the data should be separated into and that are of interest to the user. The algorithms then use various steps of calculations to _learn_ how to differentiate the given groups. This means, that the dataset that is used to train the algorithm, the so-called _train set_, needs to be carefully and diligently selected and manually labeled by experts to maximize the effectiveness of the following predictions. Having learned what features or measurements most contribute to the affiliation of a data point to a certain group, the algorithm can then categorize and sort unknown data into the learned groups. 
@@ -28,7 +28,7 @@ where $p$ and $q$ is the pair of points and $n$ the dimensionality of the data s
 
 The name-giving parameter $k$ then determines how many "neighbors", i.e. spatially closest points, are to be considered. The most prominently present label in this neighboring subset of data points determines the label of the new point. A graphical example is given in the Figure below. The data set consists of a total of 12 points, 5 labeled as class _pink_ (triangle) and 7 labeled as _blue_ (circle). The new point (grey star) has to be classified as one of these two classes. When parameter $k$ is chosen to be $4$, the point would be classified as _pink_, because out of its $4$ nearest neighbors, $3$ of them are part of the class _pink_. If $k$ is set to $11$, the _blue_ class has the majority of the $11$ neighbors and the point would be assigned to the _blue_ class.
 
-![kNN](AdditionalFigures/knn.pdf)
+![kNN](AdditionalFigures/knn.png)
 
 $k$NN is an algorithm with strengths in its simplicity and robustness, especially in very small data sets. Its only parameter $k$, needs to be chosen concerning the size of the already labeled training set. When $k$ is set too small, the algorithm becomes prone to outliers and might misclassify the new data points. When $k$ is chosen to be big, the algorithm loses its effectiveness as simply the majority of the label in the data set is always chosen as the predicted association. Another drawback of $k$NN is its limitation in the number of dimensions and the number of labels or groups. As Euclidean distance differences vanish in high dimensionality (this is one aspect of the effects of the so-called _curse of dimensionality_), accurately localizing one point's neighbors gets harder in a high dimensional space. With a high number of different labels, i.e. classes to divide the data set in, a similar problem arises, as multiple groups might be present most prominently in the neighboring points, resulting in a random pick by the algorithm.
 

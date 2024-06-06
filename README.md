@@ -8,13 +8,17 @@ This study explores the application of supervised and unsupervised machine learn
 
 ## Background
 
-The Paper briefly explains the 
-A more detailed explanaition can be found [HERE](AdditionalBackground.md)
+The Paper briefly summarizes the used and analysed Machine Learning algorithms. Due to space restrictions, the longer more detailed explanaition, aimed at people with little to no ML knowledge had to be omitted but can be included here for reference if needed.
+The more detailed explanaition can be found [HERE](AdditionalBackground.md).
 
 ## Installation and how to run Code
 
-TBC
+To run the provided Code in the Jupyter Notebooks, follow these steps:
+* Install Python (ideally 3.10 or higher) on your computer - Python can be downloaded from the official [Python Website](https://www.python.org/downloads/)
+* Install the packages "jupyter notebook", "numpy", "pandas" "matplotlib" and "sklearn" - for example by opening a command line and running the command 'pip install yourPackagehere' (There might be more packages to install - if you get any errors while executing the notebooks, repeat this step with the required packages.)
+* Using the command line, navigate to the cloned or downloaded repository and just run the command 'jupyter notebook'
+* Your browser will open and a double click on any of the '.ipynb' files will open the notebook and give you the opportunity to try the code for yourself. 
 
 ## Known Issues
 
-None so far
+None so far, if you find any errors in the code, [please let me know](mailto:N.Schueler@lmu.de)!

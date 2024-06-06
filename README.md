@@ -11,7 +11,11 @@ This study explores the application of supervised and unsupervised machine learn
 The Paper briefly summarizes the used and analysed Machine Learning algorithms. Due to space restrictions, the longer more detailed explanaition, aimed at people with little to no ML knowledge had to be omitted but can be included here for reference if needed.
 The more detailed explanaition can be found [HERE](AdditionalBackground.md).
 
-## Installation and how to run Code
+## Contents of this repository
+
+All 'ipynb' (Python Notebook) files can be opened and reviewed here in GIT. Some of the figures from the paper as well as some additional figures can be found in the folder 'ResultsFigures'. 
+
+## Installation and how to run Code on your machine
 
 To run the provided Code in the Jupyter Notebooks, follow these steps:
 * Install Python (ideally 3.10 or higher) on your computer - Python can be downloaded from the official [Python Website](https://www.python.org/downloads/)

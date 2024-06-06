@@ -1,4 +1,4 @@
-# Machine Learning Inroduction
+# Machine Learning Introduction
 ## A Short Introduction to the used Algorithms
 
 _Machine Learning_, _Artificial Intelligence_ and _Deep Learning_ have been prominently used buzzwords over the last decade. Concurrently, the differences between these terms have blurred and they sometimes have been used synonymously. 
